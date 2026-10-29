@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Environments and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Local datasets, media, and generated uploads
+data/
+!data/.gitkeep
+
+# Model checkpoints and training runs
+*.pt
+*.pth
+runs/
+
+# Generated results; preserve the output directory
+results/*
+!results/.gitkeep
+
+# Local backups and OS/editor files
+*.bak
+.DS_Store
+.vscode/
+.idea/

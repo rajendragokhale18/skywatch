@@ -1,0 +1,11 @@
+
+numpy
+scipy
+opencv-python-headless
+torch
+torchvision
+fastapi
+uvicorn[standard]
+pytest
+ultralytics
+python-multipart
