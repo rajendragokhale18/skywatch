@@ -201,9 +201,7 @@ class SkyWatchPipeline:
 
                         # Use the track's smoothed class label to reduce
                         # frame-to-frame class flicker.
-                        stable_class = self.tracker.classes.get(
-                            track_id, detection["class_name"]
-                        )
+                        stable_class = detection["class_name"]
                         stable_detection = {
                             **detection,
                             "class_name": stable_class,
